@@ -1,0 +1,254 @@
+{
+  "contact": {
+    "phone": "Telefon",
+    "email": "E-post",
+    "location": "Plats",
+    "linkedin": "LinkedIn"
+  },
+  "sections": {
+    "experience": "ARBETSLIVSERFARENHET",
+    "education": "UTBILDNING & YRKESUTBILDNING",
+    "interests": "INTRESSEN / PROFESSIONELLT ENGAGEMANG",
+    "summary": "PROFESSIONELL SAMMANFATTNING",
+    "achievements": "PRESTATIONER",
+    "coreSkills": "KÄRNKOMPETENSER",
+    "languages": "SPRÅK"
+  },
+  "personal": {
+    "name": "OLENA KUTASEVYCH",
+    "title": "Frontendutvecklare (React / TypeScript)",
+    "phone": "+46760575455",
+    "email": "olenakutasevych@gmail.com",
+    "linkedin": "linkedin.com/in/olena-kutasevych",
+    "github": "github.com/OlenaKut",
+    "location": "Stockholm, Sverige",
+    "photo": "/profile.png"
+  },
+  "summary": "Frontendfokuserad mjukvaruutvecklare med praktisk erfarenhet av att bygga produktionsklara webbapplikationer med React, Next.js, TypeScript, Firebase och .NET. Bakgrund inom molnbaserad utveckling, UX-fokuserade gränssnitt och leverans av funktionalitet från start till mål. Känd för stark kommunikationsförmåga, tvärfunktionellt samarbete och förmågan att omvandla komplexa krav till intuitiva användarupplevelser. Utökar för närvarande sin fullstack-kompetens genom professionell utbildning inom .NET och molnbaserad utveckling.",
+  "experience": [
+    {
+      "role": "Frontendutvecklare (Praktik)",
+      "organization": "Blueye AB · Distans",
+      "location": "Stockholm, Sverige",
+      "period": "10/2025 - 01/2026",
+      "responsibilities": [
+        "Levererade frontendfunktioner från start till mål för produktionsapplikationen Voculis Switchboard.",
+        "Byggde funktionalitet för användar- och samtalsgruppshantering med fullständiga CRUD-flöden och entitetsrelationer.",
+        "Implementerade säker autentisering och onboardingflöden med Firebase Auth (inloggning, verifiering, lösenordsåterställning).",
+        "Förbättrade UX och prestanda genom återanvändbara komponenter, responsiva layouter samt mörkt/ljust tema.",
+        "Införde stöd för internationalisering (i18n), vilket möjliggjorde skalbar flerspråkig distribution.",
+        "Utvecklade ett komplett notifikationssystem med persistens och användarspecifik tillståndshantering.",
+        "Integrerade frontend med backendtjänster (Firestore, Cloud Storage), inklusive hantering av profilbilder.",
+        "Ökade applikationens stabilitet genom buggrättning, refaktorering och PR-baserat samarbete."
+      ]
+    },
+    {
+      "role": "Junior Frontendutvecklare / Dataanalytiker (Deltid)",
+      "organization": "Women for Leaders",
+      "location": "Stockholm, Sverige",
+      "period": "10/2023 - 09/2024",
+      "responsibilities": [
+        "Utvecklade och underhöll webbapplikationer för Signe.co med RedwoodJS och TypeScript.",
+        "Arbetade med Signe.co och WomenforLeaders.com i WordPress- och Webflow-projekt.",
+        "Använde React Email, Tailwind CSS, PostgreSQL, Railway, MailChimp, Git och Asana för olika utvecklingsuppgifter.",
+        "Samarbetade nära med tvärfunktionella team för att säkerställa att projektmål uppnåddes."
+      ]
+    },
+    {
+      "role": "Ordförande / Styrelseledamot",
+      "organization": "Ukrainian Volunteer Hub Stockholm",
+      "location": "Stockholm, Sverige",
+      "period": "02/2022 - Nuvarande",
+      "responsibilities": [
+        "Ledde ett team med över 200 volontärer för att leverera humanitärt bistånd till krigsdrabbade områden.",
+        "Samordnade logistik för transport av medicinsk utrustning, livsmedel och kläder från Sverige till Ukraina.",
+        "Utvecklade partnerskap med lokala och internationella organisationer för att öka den övergripande effekten."
+      ]
+    },
+    {
+      "role": "Svensk-ukrainsk tolk (Frilans)",
+      "organization": "DigitalTolk",
+      "location": "Stockholm, Sverige",
+      "period": "04/2025 - Nuvarande",
+      "responsibilities": [
+        "Utförde korrekt och opartisk muntlig tolkning i enlighet med Kammarkollegiets etiska riktlinjer och God tolksed.",
+        "Möjliggjorde tydlig kommunikation mellan parter i känsliga och ansvarsfulla sammanhang.",
+        "Upprätthöll strikt sekretess och neutralitet vid hantering av personliga och känsliga uppgifter.",
+        "Anpassade kommunikationsstil efter olika miljöer, inklusive administrativa och serviceinriktade situationer."
+      ]
+    },
+    {
+      "role": "Säljare, Kontaktcenter",
+      "organization": "Ukrgasbank AB",
+      "location": "Rivne, Ukraina",
+      "period": "07/2019 - 08/2021",
+      "responsibilities": [
+        "Marknadsförde bankprodukter via inkommande och utgående kommunikationskanaler.",
+        "Levererade högkvalitativ kundservice genom effektiv hantering av kundärenden.",
+        "Utbildade och introducerade nya teammedlemmar för att främja ett samarbetsinriktat arbetsklimat."
+      ]
+    },
+    {
+      "role": "Eventkoordinator, Säsongsanställning",
+      "organization": "Rockfestivalen \"Taras Bulba\"",
+      "location": "Dubno, Ukraina",
+      "period": "07/2008 - 07/2021",
+      "responsibilities": [
+        "Ansvarade för samtliga delar av festivalens logistik, inklusive boende för gäster och deltagare.",
+        "Etablerade och upprätthöll relationer med mediepartners för ökad synlighet och räckvidd.",
+        "Övervakade budgetplanering för resor, boende och inköp."
+      ]
+    },
+    {
+      "role": "Korrespondent",
+      "organization": "Tidningen \"Castle\"",
+      "location": "Dubno, Ukraina",
+      "period": "09/2007 - 06/2019",
+      "responsibilities": [
+        "Researchade, skrev och redigerade artiklar inom ett brett spektrum av ämnen.",
+        "Genomförde intervjuer med framstående personer för att fördjupa och engagera innehållet.",
+        "Samarbetade med redaktionen för att leverera färdigt material för publicering."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Yrkeshögskoleutbildning – .NET Fullstack Systemutvecklare",
+      "institution": "Lexicon IT-Proffs",
+      "location": "Stockholm, Sverige",
+      "period": "03/2025 - 01/2026",
+      "skills": [
+        "C#, .NET, ASP.NET Core, LINQ, Razor",
+        "SQL, Entity Framework Core, NoSQL",
+        "Azure Web Apps, Functions, DevOps",
+        "Agilt/Scrum, Git, Blazor WASM",
+        "Inkluderade 12 veckors praktik i verklig arbetsmiljö"
+      ]
+    },
+    {
+      "degree": "Cloud Native Computing",
+      "institution": "YH Akademin",
+      "location": "Stockholm, Sverige",
+      "period": "02/2025 - 05/2025",
+      "skills": [
+        "Docker, Kubernetes, Mikrotjänster",
+        "CI/CD-pipelines",
+        "Grunder i Go och Python",
+        "Principer för molnarkitektur"
+      ]
+    },
+    {
+      "degree": "Program inom frontendutveckling",
+      "institution": "SheCodes | Förening Framtidssteget | Microsoft Reactor",
+      "location": "Stockholm, Sverige",
+      "period": "2002 - 2024",
+      "skills": [
+        "HTML, CSS, JavaScript, TypeScript, React, Next.js",
+        "Responsiv design, UX-principer",
+        "Versionshantering med Git",
+        "Firebase, RESTful API:er"
+      ]
+    },
+    {
+      "degree": "Magisterexamen i kulturvetenskap",
+      "institution": "National University of Ostroh Academy",
+      "location": "Ostroh, Ukraina",
+      "period": "09/2002 - 06/2007"
+    }
+  ],
+  "interests": [
+    "Att bygga användarcentrerade gränssnitt med React och TypeScript",
+    "Skapa återanvändbara och skalbara frontendkomponenter",
+    "Förbättra användbarhet, tillgänglighet och övergripande användarupplevelse",
+    "Kontinuerligt lärande inom moderna frontendramverk och bästa praxis"
+  ],
+  "coreSkills": {
+    "frontend": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "JavaScript (ES6+)",
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "Responsiv design"
+    ],
+    "backendAndCloud": [
+      ".NET",
+      "C#",
+      "ASP.NET Core",
+      "REST API:er",
+      "Firebase (Autentisering, Firestore)",
+      "Azure"
+    ],
+    "databases": ["SQL", "PostgreSQL", "Entity Framework Core", "NoSQL"],
+    "devOpsAndTools": ["Git/GitHub", "Docker", "Kubernetes", "CI/CD-pipelines"],
+    "developmentPractices": [
+      "Agilt/Scrum",
+      "UX-först-utveckling",
+      "Tillgänglighet",
+      "Internationalisering (i18n)",
+      "Grundläggande testning"
+    ]
+  },
+  "coreSkillsLabels": {
+    "frontend": "Frontend",
+    "backendAndCloud": "Backend & Moln",
+    "databases": "Databaser",
+    "devOpsAndTools": "DevOps & Verktyg",
+    "developmentPractices": "Arbetssätt"
+  },
+  "achievements": [
+    {
+      "title": "Frontendfunktioner i produktion",
+      "description": "Levererade flera produktionsklara frontendfunktioner med React, Next.js och TypeScript för en aktiv webbapplikation."
+    },
+    {
+      "title": "UX- och användbarhetsförbättringar",
+      "description": "Förbättrade användarupplevelsen genom återanvändbara komponenter, responsiva layouter samt mörkt/ljust tema."
+    },
+    {
+      "title": "Autentisering och användarflöden",
+      "description": "Implementerade säker autentisering och onboardingflöden med Firebase Authentication."
+    },
+    {
+      "title": "Skalbar frontendarkitektur",
+      "description": "Bidrog till en skalbar frontendarkitektur med internationalisering (i18n) och ett persistent notifikationssystem."
+    }
+  ],
+  "courses": [
+    {
+      "title": "Svenska, SVA3",
+      "organization": "ABF Stockholm"
+    },
+    {
+      "title": "Engelska B2",
+      "organization": "JENSEN Komvux"
+    },
+    {
+      "title": "Webbutveckling",
+      "organization": "Microsoft Reactor"
+    },
+    {
+      "title": "Frontendutveckling",
+      "organization": "Förening Framtidståget"
+    }
+  ],
+  "languages": [
+    {
+      "title": "Svenska",
+      "level": "Flytande",
+      "score": 4
+    },
+    {
+      "title": "Engelska",
+      "level": "Flytande",
+      "score": 4
+    },
+    {
+      "title": "Ukrainska",
+      "level": "Modersmål",
+      "score": 5
+    }
+  ]
+}

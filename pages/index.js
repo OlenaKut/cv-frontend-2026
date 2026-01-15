@@ -1,46 +1,85 @@
 // pages/index.js
-import data from "../data/cv.json";
 import { Gem } from "lucide-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faGithub,
+  faGit,
+} from "@fortawesome/free-brands-svg-icons";
+import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useRouter } from "next/router";
 
 export default function Home() {
-  const {
-    personal,
-    summary,
-    experience,
-    education,
-    interests,
-    achievements,
-    courses,
-    languages,
-  } = data;
+  const { t } = useTranslation("common");
+  const router = useRouter();
+
+  // const {
+  //   personal,
+  //   summary,
+  //   experience,
+  //   education,
+  //   interests,
+  //   achievements,
+  //   courses,
+  //   languages,
+  // } = data;
+
+  const handleLanguageChange = (locale) => {
+    router.push(router.pathname, router.asPath, { locale });
+  };
 
   return (
     <main className="cv-page">
+      {/* Language Switcher */}
+      <div className="language-switcher">
+        <button
+          onClick={() => handleLanguageChange("sv")}
+          className={router.locale === "sv" ? "active" : ""}
+        >
+          SV
+        </button>
+        <button
+          onClick={() => handleLanguageChange("en")}
+          className={router.locale === "en" ? "active" : ""}
+        >
+          EN
+        </button>
+      </div>
+
       {/* LEFT */}
       <section className="cv-left">
-        <h1 className="cv-name">{personal.name}</h1>
-        <div className="cv-title">{personal.title}</div>
+        <h1 className="cv-name">{t("personal.name")}</h1>
+        <div className="cv-title">{t("personal.title")}</div>
 
         <div className="cv-contact">
-          <div>📞 {personal.phone}</div>
+          <div>📞 {t("personal.phone")}</div>
           <div>
-            ✉️ <a href={`mailto:${personal.email}`}>{personal.email}</a>
+            ✉️{" "}
+            <a href={`mailto:${t("personal.email")}`}>{t("personal.email")}</a>
           </div>
           <div>
             <a
               href={`https://www.linkedin.com/in/olena-kutasevych-b0b99a24b/`}
               target="_blank"
             >
-              Linkedin: {personal.linkedin}
+              <FontAwesomeIcon icon={faLinkedin} className="ln-icon" />{" "}
+              {t("personal.linkedin")}
             </a>
           </div>
-          <div>📍 {personal.location}</div>
+          <div>
+            <a href={`https://github.com/OlenaKut`} target="_blank">
+              <FontAwesomeIcon icon={faGithub} className="ln-icon" />{" "}
+              {t("personal.github")}
+            </a>
+          </div>
+          <div>📍 {t("personal.location")}</div>
         </div>
         {/* Experience */}
         <div className="cv-section">
-          <div className="cv-section-title">ERFARENHET</div>
+          <div className="cv-section-title">{t("sections.experience")}</div>
 
-          {experience.map((item, index) => (
+          {t("experience", { returnObjects: true }).map((item, index) => (
             <div className="cv-item" key={index}>
               <div className="cv-item-header">
                 <span className="cv-item-role">{item.role}</span>
@@ -59,11 +98,12 @@ export default function Home() {
             </div>
           ))}
         </div>
+
         {/* Education */}
         <div className="cv-section">
-          <div className="cv-section-title">UTBILDNING</div>
+          <div className="cv-section-title">{t("sections.education")}</div>
 
-          {education.map((item, index) => (
+          {t("education", { returnObjects: true }).map((item, index) => (
             <div className="cv-item cv-item-education" key={index}>
               <div className="cv-item-header">
                 <span className="cv-item-role">{item.degree}</span>
@@ -74,18 +114,23 @@ export default function Home() {
                 <span className="cv-item-org">{item.institution}</span>
                 <span className="cv-item-location">{item.location}</span>
               </div>
+              {item.skills && (
+                <ul>
+                  {item.skills.map((text, i) => (
+                    <li key={i}>{text}</li>
+                  ))}
+                </ul>
+              )}
             </div>
           ))}
         </div>
 
         {/* Interests */}
         <div className="cv-section">
-          <div className="cv-section-title">
-            INTRESSEN / PROFESSIONELLT ENGAGEMANG
-          </div>
+          <div className="cv-section-title">{t("sections.interests")}</div>
 
           <div className="cv-interests">
-            {interests.map((item, index) => (
+            {t("interests", { returnObjects: true }).map((item, index) => (
               <div className="cv-interest-item" key={index}>
                 <div className="cv-interest-icon">
                   <Gem size={16} />
@@ -99,18 +144,22 @@ export default function Home() {
 
       {/* RIGHT */}
       <aside className="cv-right">
-        <img src={personal.photo} alt={personal.name} className="cv-photo" />
+        <img
+          src={t("personal.photo")}
+          alt={t("personal.name")}
+          className="cv-photo"
+        />
 
         {/* Summary */}
         <div className="cv-right-section">
-          <div className="cv-right-title">SAMMANFATTNING</div>
-          <p className="cv-summary">{summary}</p>
+          <div className="cv-right-title">{t("sections.summary")}</div>
+          <p className="cv-summary">{t("summary")}</p>
         </div>
 
         {/* Achievements */}
         <div className="cv-right-section">
-          <div className="cv-right-title">PRESTATIONER</div>
-          {achievements.map((item, index) => (
+          <div className="cv-right-title">{t("sections.achievements")}</div>
+          {t("achievements", { returnObjects: true }).map((item, index) => (
             <div className="cv-achievement" key={index}>
               <div className="cv-achievement-icon">
                 <Gem size={20} />
@@ -123,31 +172,35 @@ export default function Home() {
           ))}
         </div>
 
-        {/* Courses */}
+        {/* Core Skills */}
         <div className="cv-right-section">
-          <div className="cv-right-title">KURSER</div>
+          <div className="cv-right-title">{t("sections.coreSkills")}</div>
 
-          {courses.map((item, index) => (
-            <div className="cv-item" key={index}>
-              <div>
-                <span className="cv-item-header">{item.title}</span>
-              </div>
+          {Object.entries(t("coreSkills", { returnObjects: true }))
+            .filter(([, skills]) => Array.isArray(skills))
+            .map(([category, skills]) => (
+              <div className="cv-skills-group" key={category}>
+                <div className="cv-skills-category">
+                  {t(`coreSkillsLabels.${category}`)}
+                </div>
 
-              <div>
-                <span className="cv-item-organisation">
-                  {item.organization}
-                </span>
+                <div className="cv-skills-tags">
+                  {skills.map((skill, i) => (
+                    <span className="cv-skill-tag" key={i}>
+                      {skill}
+                    </span>
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
         </div>
 
         {/* Languages */}
         <div className="cv-right-section">
-          <div className="cv-right-title">SPRÅK</div>
+          <div className="cv-right-title">{t("sections.languages")}</div>
 
           <div className="cv-languages">
-            {languages.map((item, index) => (
+            {t("languages", { returnObjects: true }).map((item, index) => (
               <div className="cv-language-inline" key={index}>
                 <span className="cv-language-name">{item.title}</span>
                 <span className="cv-language-level">{item.level}</span>
@@ -167,4 +220,12 @@ export default function Home() {
       </aside>
     </main>
   );
+}
+
+export async function getStaticProps({ locale }) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["common"])),
+    },
+  };
 }

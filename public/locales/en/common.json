@@ -1,0 +1,276 @@
+{
+  "contact": {
+    "phone": "Phone",
+    "email": "Email",
+    "location": "Location",
+    "linkedin": "LinkedIn"
+  },
+  "sections": {
+    "experience": "EXPERIENCE",
+    "education": "EDUCATION & PROFESSIONAL TRAINING",
+    "interests": "INTERESTS / PROFESSIONAL ENGAGEMENT",
+    "summary": "PROFESSIONAL SUMMARY",
+    "achievements": "ACHIEVEMENTS",
+    "coreSkills": "CORE SKILLS",
+    "languages": "LANGUAGES"
+  },
+
+  "personal": {
+    "name": "OLENA KUTASEVYCH",
+    "title": "Frontend Developer (React / TypeScript)",
+    "phone": "+46760575455",
+    "email": "olenakutasevych@gmail.com",
+    "linkedin": "linkedin.com/in/olena-kutasevych",
+    "github": "github.com/OlenaKut",
+    "location": "Stockholm, Sweden",
+    "photo": "/profile.png"
+  },
+
+  "summary": "Frontend-focused software developer with hands-on experience building production-ready web applications using React, Next.js, TypeScript, Firebase, and .NET. Background in cloud-native development, UX-focused interfaces, and end-to-end feature delivery. Known for strong communication skills, cross-functional collaboration, and the ability to translate complex requirements into intuitive user experiences. Currently expanding fullstack expertise through professional .NET and cloud-native training.",
+
+  "experience": [
+    {
+      "role": "Frontend Developer (Internship)",
+      "organization": "Blueye AB · Remote",
+      "location": "Stockholm, Sweden",
+      "period": "10/2025 - 01/2026",
+      "responsibilities": [
+        "Delivered end-to-end frontend features for the Voculis Switchboard production web application.",
+        "Built user and call-group management functionality with full CRUD workflows and entity relationships.",
+        "Implemented secure authentication and onboarding flows using Firebase Auth (login, verification, password recovery).",
+        "Improved UX and performance through reusable components, responsive layouts, and dark/light theming.",
+        "Added internationalization (i18n) support, enabling scalable multi-language deployment.",
+        "Developed a full notification system with persistence and per-user state handling.",
+        "Integrated frontend with backend services (Firestore, Cloud Storage), including profile image management.",
+        "Increased application stability through bug fixing, refactoring, and PR-based collaboration."
+      ]
+    },
+    {
+      "role": "Junior Frontend Developer / Data Analyst (Part-time)",
+      "organization": "Women for Leaders",
+      "location": "Stockholm, Sweden",
+      "period": "10/2023 - 09/2024",
+      "responsibilities": [
+        "Developed and maintained web applications Signe.co using RedwoodJS and TypeScript.",
+        "Worked with Signe.co and WomenforLeaders.com on WordPress and Webflow projects.",
+        "Utilized React email, Tailwind CSS, PostgreSQL, Railway, MailChimp, Git, and Asana for various development tasks.",
+        "Collaborated closely with cross-functional teams to ensure project goals were met."
+      ]
+    },
+    {
+      "role": "Head of Charitable Organization/ Board Member",
+      "organization": "Ukrainian Volunteer Hub Stockholm",
+      "location": "Stockholm, Sweden",
+      "period": "02/2022 - Present",
+      "responsibilities": [
+        "Led a team of 200+ volunteers to deliver humanitarian aid to war-affected areas.",
+        "Coordinated logistics for transporting medical supplies, food, and clothing from Sweden to Ukraine.",
+        "Developed partnerships with local and international organizations to expand overall impact."
+      ]
+    },
+    {
+      "role": "Swedish-Ukrainian Interpreter (Freelance)",
+      "organization": "DigitalTolk",
+      "location": "Stockholm, Sweden",
+      "period": "04/2025 - Present",
+      "responsibilities": [
+        "Deliver accurate and impartial oral interpretation in accordance with Kammarkollegiet's ethical guidelines and Good Interpretation.",
+        "Facilitate clear communication between parties in sensitive and responsible contexts.",
+        "Maintain strict confidentiality and neutrality when handling personal and sensitive information.",
+        "Adapt communication style to different environments, including administrative and service-related interactions."
+      ]
+    },
+    {
+      "role": "Sales Representative, Contact Center",
+      "organization": "Ukrgasbank AB",
+      "location": "Rivne, Ukraine",
+      "period": "07/2019 - 08/2021",
+      "responsibilities": [
+        "Promoted banking products through inbound and outbound communication channels.",
+        "Delivered exceptional customer service by resolving inquiries efficiently.",
+        "Trained and onboarded new team members to foster a collaborative work environment."
+      ]
+    },
+    {
+      "role": "Event Coordinator, Seasonal Position",
+      "organization": "Rock Festival \"Taras Bulba\"",
+      "location": "Dubno, Ukraine",
+      "period": "07/2008 - 07/2021",
+      "responsibilities": [
+        "Managed all aspects of festival logistics, including accommodation for guests and participants.",
+        "Established and maintained relationships with media partners to increase visibility and reach.",
+        "Oversaw budget planning for travel, accommodation, and procurement."
+      ]
+    },
+    {
+      "role": "Correspondent",
+      "organization": "Newspaper \"Castle\"",
+      "location": "Dubno, Ukraine",
+      "period": "09/2007 - 06/2019",
+      "responsibilities": [
+        "Researched, wrote, and edited articles across a wide range of topics.",
+        "Conducted interviews with prominent individuals to enhance article depth and engagement.",
+        "Collaborated with the editorial team to deliver finalized content for publication."
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "Professional Program - .NET Fullstack System Developer",
+      "institution": "Lexicon IT-Proffs",
+      "location": "Stockholm, Sweden",
+      "period": "03/2025 - 01/2026",
+
+      "skills": [
+        "C#, .NET, ASP.NET Core, LINQ, Razor",
+        "SQL, Entity Framework Core, NoSQL",
+        "Azure Web Apps, Functions, DevOps",
+        "Agile/Scrum, Git, Blazor WASM",
+        "Included 12-week real-world internship"
+      ]
+    },
+    {
+      "degree": "Cloud Native Computing",
+      "institution": "YH Akademin",
+      "location": "Stockholm, Sweden",
+      "period": "02/2025 - 05/2025",
+      "skills": [
+        "Docker, Kubernetes, Microservices",
+        "CI/CD pipelines",
+        "Go & Python fundamentals",
+        "Cloud architecture principles"
+      ]
+    },
+    {
+      "degree": "Frontend Development Programs",
+      "institution": "SheCodes | Förening Framtidssteget | Microsoft Reactor",
+      "location": "Stockholm, Sweden",
+      "period": "2002 - 2024",
+      "skills": [
+        "HTML, CSS, JavaScript, TypeScript, React, Next.js",
+        "Responsive Design, UX Principles",
+        "Version Control with Git",
+        "Firebase, RESTful APIs"
+      ]
+    },
+    {
+      "degree": "Master’s Degree in Cultural Studies",
+      "institution": "National University of Ostroh Academy",
+      "location": "Ostroh, Ukraine",
+      "period": "09/2002 - 06/2007"
+    }
+  ],
+
+"interests": [
+  "Building user-centric interfaces with React and TypeScript",
+  "Creating reusable, scalable frontend components",
+  "Improving usability, accessibility, and overall user experience",
+  "Continuous learning in modern frontend frameworks and best practices"
+],
+
+"coreSkills": {
+  "frontend": [
+    "React",
+    "Next.js",
+    "TypeScript",
+    "JavaScript (ES6+)",
+    "HTML5",
+    "CSS3",
+    "Bootstrap",
+    "Responsive Design"
+  ],
+  "backendAndCloud": [
+    ".NET",
+    "C#",
+    "ASP.NET Core",
+    "REST APIs",
+    "Firebase (Authentication, Firestore)",
+    "Azure"
+  ],
+  "databases": [
+    "SQL",
+    "PostgreSQL",
+    "Entity Framework Core",
+    "NoSQL"
+  ],
+  "devOpsAndTools": [
+    "Git/GitHub",
+    "Docker",
+    "Kubernetes",
+    "CI/CD pipelines"
+  ],
+  "developmentPractices": [
+    "Agile/Scrum",
+    "UX-first development",
+    "Accessibility",
+    "Internationalization (i18n)",
+    "Testing fundamentals"
+  ]
+},
+
+"coreSkillsLabels": {
+  "frontend": "Frontend",
+  "backendAndCloud": "Backend & Cloud",
+  "databases": "Databases",
+  "devOpsAndTools": "DevOps & Tools",
+  "developmentPractices": "Practices"
+},
+
+"achievements": [
+  {
+    "title": "Production Frontend Features",
+    "description": "Delivered multiple production-ready frontend features using React, Next.js, and TypeScript for a live web application."
+  },
+  {
+    "title": "UX & Usability Improvements",
+    "description": "Improved user experience through reusable components, responsive layouts, and dark/light theming."
+  },
+  {
+    "title": "Authentication & User Flows",
+    "description": "Implemented secure authentication and onboarding flows using Firebase Authentication."
+  },
+  {
+    "title": "Scalable Frontend Architecture",
+    "description": "Contributed to scalable frontend architecture with internationalization (i18n) and a persistent notification system."
+  }
+],
+
+
+  "courses": [
+    {
+      "title": "Swedish, SVA3",
+      "organization": "ABF Stockholm"
+    },
+    {
+      "title": "English B2",
+      "organization": "JENSEN Komvux"
+    },
+    {
+      "title": "Web Development",
+      "organization": "Microsoft Reactor"
+    },
+    {
+      "title": "Frontend Development",
+      "organization": "Förening Framtidståget"
+    }
+  ],
+
+  "languages": [
+    {
+      "title": "Swedish",
+      "level": "Proficient",
+      "score": 4
+    },
+    {
+      "title": "English",
+      "level": "Proficient",
+      "score": 4
+    },
+    {
+      "title": "Ukrainian",
+      "level": "Native",
+      "score": 5
+    }
+  ]
+}

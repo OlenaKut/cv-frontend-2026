@@ -1,10 +1,11 @@
 {
   "personal": {
     "name": "OLENA KUTASEVYCH",
-    "title": "Frontend Developer",
+    "title": "Frontend/React Developer",
     "phone": "+46760575455",
     "email": "olenakutasevych@gmail.com",
-    "linkedin": "Olena Kutasevych",
+    "linkedin": "linkedin.com/in/olena-kutasevych",
+    "github": "github.com/OlenaKut",
     "location": "Stockholm, Sverige",
     "photo": "/profile.png"
   },
