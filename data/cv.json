@@ -1,0 +1,154 @@
+{
+  "personal": {
+    "name": "OLENA KUTASEVYCH",
+    "title": "Frontend Developer",
+    "phone": "+46760575455",
+    "email": "olenakutasevych@gmail.com",
+    "linkedin": "Olena Kutasevych",
+    "location": "Stockholm, Sverige",
+    "photo": "/profile.png"
+  },
+  "summary": "Högt organiserad och resursstark professionell med omfattande erfarenhet inom eventkoordinering, logistikhantering och kundservice. Beprövad förmåga att hantera storskaliga evenemang, effektivisera processer och leda olika team. Flytande i svenska och engelska med en passion för att leverera exceptionella resultat i dynamiska miljöer.",
+  "experience": [
+    {
+      "role": "Svensk-ukrainsk tolk, Frilans",
+      "organization": "DigitalTolk",
+      "location": "Stockholm, Sverige",
+      "period": "04/2025",
+      "responsibilities": [
+        "Levererar korrekt och opartisk muntlig tolkning i enlighet med Kammarkollegiets etiska riktlinjer och God tolkning.",
+        "Underlättar tydlig kommunikation mellan parter i känsliga och ansvarsfulla sammanhang.",
+        "Upprätthåller strikt sekretess och neutralitet vid hantering av personlig och känslig information.",
+        "Anpassar kommunikationsstil till olika miljöer, inklusive administrativa och servicerelaterade interaktioner."
+      ]
+    },
+    {
+      "role": "Ordförande för välgörenhetsorganisation",
+      "organization": "Ukrainian Volunteer Hub Stockholm",
+      "location": "Stockholm, Sverige",
+      "period": "02/2022 - 03/2025",
+      "responsibilities": [
+        "Ledd ett team på 200+ volontärer för att leverera humanitärt stöd till krigsdrabbade områden.",
+        "Samordnade logistik för transport av medicinska förnödenheter, mat och kläder från Sverige till Ukraina.",
+        "Utvecklade partnerskap med lokala och internationella organisationer för att utöka påverkan."
+      ]
+    },
+    {
+      "role": "Säljare, kontaktcenter",
+      "organization": "Ukrgasbank AB",
+      "location": "Rivne, Ukraina",
+      "period": "07/2019 - 08/2021",
+      "responsibilities": [
+        "Marknadsförde bankprodukter genom inkommande och utgående kommunikation.",
+        "Levererade exceptionell kundservice genom att lösa förfrågningar effektivt.",
+        "Utbildade och introducerade nya teammedlemmar för att främja en samarbetsmiljö."
+      ]
+    },
+    {
+      "role": "Evenemangskoordinator, Säsongsjobb",
+      "organization": "Rockfestival \"Taras Bulba\"",
+      "location": "Dubno, Ukraina",
+      "period": "07/2008 - 07/2021",
+      "responsibilities": [
+        "Hanterade alla aspekter av festivalens logistik, inklusive boende för gäster och deltagare.",
+        "Etablerade och underhöll relationer med mediepartners för ökad synlighet och räckvidd.",
+        "Ansvarade för budgetplanering för resor, boende och inköp."
+      ]
+    },
+    {
+      "role": "Korrespondent",
+      "organization": "Tidningen \"Castle\"",
+      "location": "Dubno, Ukraina",
+      "period": "09/2007 - 06/2019",
+      "responsibilities": [
+        "Forskade, skrev och redigerade artiklar inom olika ämnesområden.",
+        "Genomförde intervjuer med framstående personer för att öka djupet och engagemanget i artiklar.",
+        "Samarbetade med redaktionsteamet för att leverera färdigställt innehåll för publicering."
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "degree": ".NET Fullstack System Developer",
+      "institution": "Lexicon IT-Proffs",
+      "location": "Stockholm, Sverige",
+      "period": "03/2025 - 01/2026"
+    },
+    {
+      "degree": "Cloud Native Computing",
+      "institution": "YH Akademin",
+      "location": "Stockholm, Sverige",
+      "period": "02/2025 - 05/2025"
+    },
+    {
+      "degree": "Magisterexamen i Kulturstudier",
+      "institution": "National University of Ostroh Academy",
+      "location": "Ostroh, Ukraina",
+      "period": "09/2002 - 06/2007"
+    }
+  ],
+
+  "interests": [
+    "Koordinering av team, leverantörer och aktiviteter",
+    "Kommunikation och samarbete mellan olika intressenter",
+    "Projekt- och verksamhetskoordinering",
+    "Planering och genomförande av evenemang med hög kvalitet"
+  ],
+
+  "achievements": [
+    {
+      "title": "Ledde volontärgruppen",
+      "description": "Ledde över 200 volontärer för att leverera bistånd till krigszoner, vilket ökade effektiviteten med 70 %."
+    },
+    {
+      "title": "Logistikkoordinering",
+      "description": "Koordinerade logistik för 100+ leveranser från Sverige till Ukraina inom ett år."
+    },
+    {
+      "title": "Utökade partnerskap",
+      "description": "Utveckla partnerskap med fler än 15 organisationer och öka effekten med 40 %."
+    },
+    {
+      "title": "Festivalkoordinering",
+      "description": "Hanterade eventlogistik för fler än 5 000 deltagare och säkerställde nöjdhet och efterlevnad."
+    }
+  ],
+
+  "courses": [
+    {
+      "title": "Svenska, SVA3",
+      "organization": "ABF Stockholm"
+    },
+    {
+      "title": "Engelska B2",
+      "organization": "JENSEN Komvux"
+    },
+    {
+      "title": "Webbutveckling",
+      "organization": "Microsoft Reactor"
+    },
+    {
+      "title": "Frontendutveckling",
+      "organization": "Förening Framtidståget"
+    }
+  ],
+
+  "languages": [
+    {
+      "title": "Svenska",
+      "level": "Proficient",
+      "score": 4
+    },
+    {
+      "title": "Engelska",
+      "level": "Proficient",
+      "score": 4
+    },
+    {
+      "title": "Ukrainska",
+      "level": "Modersmål",
+      "score": 5
+    }
+  ]
+}
