@@ -351,12 +351,27 @@ body {
   line-height: 1.2;
 }
 
+/* Interests */
+.cv-interests {
+  display: flex;
+  gap: 10px;
+  margin-bottom: var(--space-md);
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.cv-interests-list {
+  margin-top: 60px;
+}
+
+
 .cv-interests-item {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 12px;
 }
+
+
 
 /* ===== PRINT ===== */
 @media print {

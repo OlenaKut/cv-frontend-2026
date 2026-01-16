@@ -203,12 +203,12 @@ export default function Home() {
         </div>
 
         {/* Interests */}
-        <div className="cv-right-section">
+        <div className="cv-right-section cv-interests-list">
           <div className="cv-right-title">{t("sections.interests")}</div>
 
-          <div className="cv-achievements">
+          <div className="">
             {t("interests", { returnObjects: true }).map((item, index) => (
-              <div className="cv-interests-item" key={index}>
+              <div className="cv-interests-item cv-interests" key={index}>
                 <div className="cv-interests-icon">
                   <Gem size={20} />
                 </div>
