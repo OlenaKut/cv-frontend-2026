@@ -63,14 +63,11 @@ body {
 }
 
 .language-switcher button {
-  padding: 4px 8px;
-  border: 2px solid var(--color-accent);
-  background: white;
-  color: var(--color-accent);
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: all 0.2s ease;
+  background: none;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+  color: white;
 }
 
 .language-switcher button:hover {
@@ -78,10 +75,11 @@ body {
   color: white;
 }
 
+/* 
 .language-switcher button.active {
   background: var(--color-accent);
   color: white;
-}
+} */
 
 /* ===== PAGE ===== */
 .cv-page {
@@ -350,6 +348,13 @@ body {
   border-radius: 6px;
   background-color: rgba(255, 255, 255, 0.12);
   line-height: 1.2;
+}
+
+.cv-interests-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
 }
 
 /* ===== PRINT ===== */

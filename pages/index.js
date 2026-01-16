@@ -124,22 +124,6 @@ export default function Home() {
             </div>
           ))}
         </div>
-
-        {/* Interests */}
-        <div className="cv-section">
-          <div className="cv-section-title">{t("sections.interests")}</div>
-
-          <div className="cv-interests">
-            {t("interests", { returnObjects: true }).map((item, index) => (
-              <div className="cv-interest-item" key={index}>
-                <div className="cv-interest-icon">
-                  <Gem size={16} />
-                </div>
-                <span>{item}</span>
-              </div>
-            ))}
-          </div>
-        </div>
       </section>
 
       {/* RIGHT */}
@@ -213,6 +197,22 @@ export default function Home() {
                     />
                   ))}
                 </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Interests */}
+        <div className="cv-right-section">
+          <div className="cv-right-title">{t("sections.interests")}</div>
+
+          <div className="cv-achievements">
+            {t("interests", { returnObjects: true }).map((item, index) => (
+              <div className="cv-interests-item" key={index}>
+                <div className="cv-interests-icon">
+                  <Gem size={20} />
+                </div>
+                <span>{item}</span>
               </div>
             ))}
           </div>
