@@ -280,6 +280,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  margin-bottom: 48px;
 }
 
 .cv-language-inline {
