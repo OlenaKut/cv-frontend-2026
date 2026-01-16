@@ -53,12 +53,12 @@ export default function Home() {
         <div className="cv-title">{t("personal.title")}</div>
 
         <div className="cv-contact">
-          <div>📞 {t("personal.phone")}</div>
-          <div>
+          <div className="personal">📞 {t("personal.phone")}</div>
+          <div className="personal">
             ✉️{" "}
             <a href={`mailto:${t("personal.email")}`}>{t("personal.email")}</a>
           </div>
-          <div>
+          <div className="personal">
             <a
               href={`https://www.linkedin.com/in/olena-kutasevych-b0b99a24b/`}
               target="_blank"
@@ -67,7 +67,7 @@ export default function Home() {
               {t("personal.linkedin")}
             </a>
           </div>
-          <div>
+          <div className="personal">
             <a href={`https://github.com/OlenaKut`} target="_blank">
               <FontAwesomeIcon icon={faGithub} className="ln-icon" />{" "}
               {t("personal.github")}

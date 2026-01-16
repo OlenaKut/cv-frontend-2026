@@ -36,6 +36,7 @@ body {
   --color-border: #d1d5db;
 
   /* Spacing */
+  --space-xxs: 2px;
   --space-xs: 4px;
   --space-sm: 8px;
   --space-md: 16px;
@@ -122,6 +123,10 @@ body {
   font-size: 16px;
   color: var(--color-muted);
   font-family: var(--font-sans);
+}
+
+.personal {
+  margin-bottom: var(--space-xxs);
 }
 
 .cv-contact a {
